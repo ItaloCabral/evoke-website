@@ -280,14 +280,6 @@ header .welcome .technologies img {
     }
   }
 
-  /*Responsive mobile*/
-
-  @media (max-width: 768px) {
-    .waves {
-      height:40px;
-      min-height:40px;
-    }
-  }
   
 /* Topics */
 
@@ -305,6 +297,8 @@ header .welcome .technologies img {
 .container-topics {
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex:1;
     gap: 10px;
     padding: 0px 60px;
     transition: .3s;
@@ -317,20 +311,48 @@ header .welcome .technologies img {
 .icon-topic img {
     height: 60px;
 }
+.icon-topic span img {
+    height: 40vh;
+}
 
 .topic h5 {
     font-size: 1.6rem;
     margin-top: 10px;
     font-family: Futura-Medium;
     color: #444444;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
-.topic p {
-    margin-top: 16px;
+.topic h1 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-family: Futura-Medium;
+    color: #444444;
+}
+
+.topic h6 {
+    font-size: 1.6rem;
+    font-family: Futura-Medium;
+    color: #FF0066;
+    letter-spacing: 2px;
+}
+
+.topic p a{
     font-size: 1.4rem;
     font-family: AlegrayaSans-Regular;
+    color: #444444;
+    text-decoration: none;
+}
+
+i{
+    margin: 5px;
     color: #818181;
+    transition: 0.3s;
+}
+
+i:hover{
+    color: #FF0066;
+    transform: translateY(-0.20em);
 }
 
 @media(max-width: 830px) {
@@ -349,7 +371,6 @@ header .welcome .technologies img {
         text-align: center;
     }
 }
-
 @media(max-width: 680px) {
     .container-topics {
         padding: 0px;
@@ -768,6 +789,12 @@ header .welcome .technologies img {
     }
 }
 
+@media (max-width: 768px) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+  }
 /* Footer */
 
 .content-footer {
