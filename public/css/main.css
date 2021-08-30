@@ -953,7 +953,9 @@ i:hover {
     .footer {
         padding-bottom: 0
     }
-
+    .footerRight{
+        float: left;
+    }
     .footer .social-icons {
         text-align: center
     }
