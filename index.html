@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="public/img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="public/css/main.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- ajax (slide) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <title>Evoke</title>
 </head>
+
 <body>
     <header>
         <section class="welcome">
@@ -19,7 +27,7 @@
                 <h1>Sua <span class="gt">empresa</span> de software favorita do <span class="gt">momento.</span></h1>
 
                 <p>Desenvolvimento de sistemas em geral com ênfase no desenvolvimento de aplicações mobile</p>
-            
+
                 <div class="tech-container">
                     <div class="technologies">
                         <img src="public/svg/javascript.svg" alt="">
@@ -34,24 +42,27 @@
 
         <section class="description">
             <h3 id="txt-title">Sobre nós</h3>
-            <p id="txt-desc">A empresa Evoke é atuante no setor de informática e é especializada no desenvolvimento de softwares para empresas de pequeno e médio porte.
-                <br>Foi criada outubro de 2020 com o objetivo de desenvolver o trabalho de conclusão do curso de Técnico de Desenvolvimento de Sistemas integrado ao médio da escola técnica estadual de Guaianazes, em São Paulo, SP.
+            <p id="txt-desc">A empresa Evoke é atuante no setor de informática e é especializada no desenvolvimento de
+                softwares para empresas de pequeno e médio porte.
+                <br>Foi criada outubro de 2020 com o objetivo de desenvolver o trabalho de conclusão do curso de Técnico
+                de Desenvolvimento de Sistemas integrado ao médio da escola técnica estadual de Guaianazes, em São
+                Paulo, SP.
             </p>
         </section>
 
         <section class="header-content"></section>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                <defs>
-                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-                </g>
-            </svg>
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
     </header>
 
     <section class="topics">
@@ -61,21 +72,24 @@
                     <img src="public/img/website.png" alt="">
                 </div>
                 <h5>Our code</h5>
-                <p>Entregamos a melhor qualidade através de dedicação, trabalho duro e comprometimento. Levando assim a satisfação à nossos clientes.</p>
+                <p>Entregamos a melhor qualidade através de dedicação, trabalho duro e comprometimento. Levando assim a
+                    satisfação à nossos clientes.</p>
             </div>
             <div class="topic">
                 <div class="icon-topic">
                     <img src="public/img/performance.png" alt="">
                 </div>
                 <h5>Performance</h5>
-                <p>Somos referência em soluções digitais de alto impacto através de nossos projetos com altos padrões de qualidade.</p>
+                <p>Somos referência em soluções digitais de alto impacto através de nossos projetos com altos padrões de
+                    qualidade.</p>
             </div>
             <div class="topic">
                 <div class="icon-topic">
                     <img src="public/img/humans.png" alt="">
                 </div>
                 <h5>Relationship</h5>
-                <p> Impulsionamos o progresso da sociedade através de conexões significativas entre pessoas e tecnologias.</p>
+                <p> Impulsionamos o progresso da sociedade através de conexões significativas entre pessoas e
+                    tecnologias.</p>
             </div>
         </div>
     </section>
@@ -91,8 +105,10 @@
         <div class="section-icon">
             <div class="content-container left">
                 <h3 class="gt">REFINANCES</h3>
-                <p>É um sistema mobile de organização financeira que pode ajudar pessoas comuns e sem entendimento de finanças a administrar melhor seu dinheiro. </p>
-                <p>O aplicativo conta com facilidades para registrar e exibir os gastos e ganhos, como <b>reconhecimento de voz e texto</b> para incentivar o uso do app.</p>
+                <p>É um sistema mobile de organização financeira que pode ajudar pessoas comuns e sem entendimento de
+                    finanças a administrar melhor seu dinheiro. </p>
+                <p>O aplicativo conta com facilidades para registrar e exibir os gastos e ganhos, como <b>reconhecimento
+                        de voz e texto</b> para incentivar o uso do app.</p>
             </div>
             <div class="icon-container">
                 <img class="icon" src="public/svg/icon1.svg" alt="">
@@ -105,7 +121,8 @@
             </div>
             <div class="content-container right">
                 <h3 class="gt">TITULO 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus adipisci veniam eius distinctio praesentium hic eligendi error.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus adipisci veniam eius distinctio
+                    praesentium hic eligendi error.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor, numquam eum, ratione id.</p>
             </div>
         </div>
@@ -113,7 +130,8 @@
         <div class="section-icon">
             <div class="content-container left">
                 <h3 class="gt">TITULO 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus adipisci veniam eius distinctio praesentium hic eligendi error.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus adipisci veniam eius distinctio
+                    praesentium hic eligendi error.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor, numquam eum, ratione id.</p>
             </div>
             <div class="icon-container">
@@ -140,8 +158,12 @@
     <section class="idky2">
         <div class="idky2-content">
             <h3>Lorem ipsum dolor, sit amet</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magni dolor? Accusamus modi iste doloremque maxime minima explicabo architecto distinctio, nihil labore quisquam animi dolore. At ea quibusdam nobis placeat?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus mollitia eveniet aspernatur sequi. Necessitatibus nihil dignissimos mollitia, perspiciatis nemo, officiis recusandae explicabo cumque provident, earum velit assumenda ea rerum saepe.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magni dolor? Accusamus modi iste
+                doloremque maxime minima explicabo architecto distinctio, nihil labore quisquam animi dolore. At ea
+                quibusdam nobis placeat?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus mollitia eveniet aspernatur sequi.
+                Necessitatibus nihil dignissimos mollitia, perspiciatis nemo, officiis recusandae explicabo cumque
+                provident, earum velit assumenda ea rerum saepe.</p>
         </div>
         <img src="public/svg/monitor.svg" alt="">
     </section>
@@ -155,7 +177,8 @@
         <div class="app-content">
             <div class="app-wrapper">
                 <h3>Refinances<br>project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in sequi maxime eum debitis nisi officia suscipit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in sequi maxime eum debitis nisi
+                    officia suscipit?</p>
                 <button>Baixar</button>
             </div>
         </div>
@@ -209,7 +232,7 @@
                     </p>
                 </div>
             </div>
-        
+
             <div class="container-topics">
                 <div class="topic">
                     <div class="icon-topic">
@@ -270,16 +293,100 @@
             </div>
         </center>
     </section>
-    <!-- Footer -->
 
-    <footer>
-        <div class="content-footer">
-            <img src="public/img/logoClaraFundo.png" alt="">
+
+    <div class="wave2"></div>
+
+    <section class="idky1">
+        <div class="idky1-container">
+            <h3 id="idky1-title">Nossas Parceiras:</h3>
+            <div class="parceiras">
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="public/img/adidas.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/facebook.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/google.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/instagram.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/nike.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/twitter.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/uber.png" alt="logo"></div>
+                    <div class="slide"><img src="public/img/youtube.png" alt="logo"></div>
+                </section>
+            </div>
         </div>
-        <div class="credit">
-            <p class="copyright">Evoke © Copyright 2021</p>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Sobre Nós</h6>
+                    <p class="text-justify">A empresa <i>EVOKE</i> atua no setor da tecnologia e é especializada no
+                        desenvolvimento de softwares para empresas de pequeno e médio porte.</p>
+                </div>
+                <div class="col-xs-6 col-md-3">
+
+                    <ul class="footerRight">
+                        <h6>Abas do Site</h6>
+                        <li><a href="">Sobre Nos</a></li>
+                        <li><a href="">Integrantes</a></li>
+                        <li><a href="">Refinances</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Evoke © Copyright 2021</p>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="twitter" href="#">
+                                <j class="fab fa-github"></j>
+                            </a></li>
+                        <li><a class="dribbble" href="#">
+                                <j class="fa fa-youtube"></j>
+                            </a></li>
+                        <li><a class="linkedin" href="#">
+                                <j class="fa fa-linkedin"></j>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
-<script src="https://kit.fontawesome.com/e848e7d301.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    setting: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    setting: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/e848e7d301.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
