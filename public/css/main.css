@@ -312,7 +312,7 @@ header .welcome .technologies img {
 }
 
 .container-topics {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex: 1;
@@ -373,15 +373,31 @@ i:hover {
     transform: translateY(-0.20em);
 }
 
+@media(max-width: 1420px){
+    .gtd .icon-topic{
+        width: 80vw;
+    }
+    .container-topics .topic span img{
+        min-width: 250px;
+        width: 30%;
+        height: 40%;
+    }
+}
+
 @media(max-width: 830px) {
     .container-topics {
         flex-direction: column-reverse;
         gap: 20px;
     }
 
+    .container-topics .topic span img{
+        width: 85%;
+    }
+
     .icon-topic img {
         display: block;
         margin: 0 auto;
+        width: 100%;
     }
 
     .topic h5 {
@@ -799,6 +815,21 @@ i:hover {
     }
 }
 
+@media(max-width: 640px){
+    .customer-logos{
+        height: 200px;
+    }
+
+    .customer-logos div{
+        width: 80%;
+    }
+
+    .customer-logos img{
+        width: 100%;
+        min-width: 150px;
+    }
+}
+
 @media(max-width: 530px) {
     .app .img-content {
         margin-left: -280px;
@@ -839,7 +870,17 @@ i:hover {
 /*Carrosel parceiros*/
 .parceiras {
     padding: 10px;
-    width: 120%;
+    margin: 0 auto;
+}
+
+.customer-logos{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.customer-logos img{
+    max-width: 250px;
 }
 
 .slick-slide {
